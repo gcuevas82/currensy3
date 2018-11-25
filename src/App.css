@@ -10,7 +10,7 @@
                 text-align: center;
             }
             
-.dropbtn {
+/* .dropbtn {
     background-color: #E6BCD0;
     color: black;
     padding: 16px;
@@ -43,7 +43,7 @@
     display: block;
 }
 
-.dropdown a:hover {background-color: #ddd;}
+.dropdown a:hover {background-color: #ddd;} */
 
 .show {display: block;}
             
@@ -162,47 +162,72 @@
   border: 5px solid #CDFDA1;
   background: #CDFDA1;
   transition: background-color, 1s;
+  color: gray;
 }
 
-.bar-graph .bar.second {
+.bar-graph .bar:nth-child(2) {
   border: 5px solid #E3CA92;
   background: #E3CA92;
+  color: gray;
+
 }
 
-.bar-graph .bar.third {
+.bar-graph .bar:nth-child(3) {
   border: 5px solid #79D9FE;
   background: #79D9FE;
+  color: gray;
+
 }
 
-.bar-graph .bar.fourth {
+.bar-graph .bar:nth-child(4) {
   border: 5px solid #B6BDC3;
   background: #B6BDC3;
+  color: gray;
+
 }
 
-.bar-graph .bar.fifth {
-  border: 5px solid #E9EE4B;
-  background: #E9EE4B;
+.bar-graph .bar:nth-child(1):hover {
+    background: transparent;
+    transition: background 3s;
 }
+.bar-graph .bar:nth-child(2):hover {
+    background: transparent;
+    transition: background 3s;
+}
+.bar-graph .bar:nth-child(3):hover {
+    background: transparent;
+    transition: background 3s;
+}
+.bar-graph .bar:nth-child(4):hover {
+    background: transparent;
+    transition: background 3s;
+}
+/* 
+select {
+  .webkit-appearance: menulist;
+  box-sizing: border-box;
+    align-items: center;
+    white-space: pre;
+    -webkit-rtl-ordering: logical;
+    color: black;
+    background-color: white;
+    cursor: default;
+    border-width: 1px;
+    border-style: solid;
+    border-color: initial;
+    border-image: initial;
+} */
 
-.bar-graph .bar.first:hover {
-    background: transparent;
-    transition: background 3s;
+button {
+  text-rendering: auto;
+  color: initial;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  margin: 0em;
+  font: 400 13.3333px Arial;
 }
-.bar-graph .bar.second:hover {
-    background: transparent;
-    transition: background 3s;
-}
-.bar-graph .bar.third:hover {
-    background: transparent;
-    transition: background 3s;
-}
-.bar-graph .bar.fourth:hover {
-    background: transparent;
-    transition: background 3s;
-}
-.bar-graph .bar.fifth:hover {
-    background: transparent;
-    transition: background 3s;
-}
-
-
